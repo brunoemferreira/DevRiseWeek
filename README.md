@@ -1,6 +1,6 @@
 <!-- Logotipo -->
 <div align="center">
-   <img src="./assets/logo.png"/>
+   <img src="./Assets/logo.png"/>
 </div>
 
 <!-- Title -->
