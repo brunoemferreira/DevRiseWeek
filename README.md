@@ -7,7 +7,7 @@
 <h1 align="center">Seven Coders - DevRiseWeek</h1>
 
 <!-- Subtitle -->
-<h2 align="center"> Projeto :  </h2>
+<h2 align="center"> Projeto : Find Houses 🏘️ </h2>
 <p align="center">🚧 Início : 24/03/2021 á 28/03/2021</p>
 
 <!-- Badges -->
