@@ -1,30 +1,14 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { ThemeProvider } from 'styled-components';
+import { SplashScreen } from './screens';
+import { theme } from './styles/theme';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Bem Vindo Ä DevRise Week</Text>
-      </View>
-    </SafeAreaView>
+    <ThemeProvider theme={theme}>
+      <SplashScreen />
+    </ThemeProvider>
   );
 };
-
-const styles = StyleSheet.create({
-  sectionView: {
-    height: 100,
-    width: 100,
-    backgroundColor: 'red',
-  },
-});
 
 export default App;

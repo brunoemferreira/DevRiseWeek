@@ -6,4 +6,4 @@ export const colors = {
   white: '#FFFFFF',
   purpleTransparent: 'rgba(45,40,91,0.64)',
   darkTransparent: 'rgba(18,16,37,0.59)',
-;
+};
