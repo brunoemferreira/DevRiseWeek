@@ -8,7 +8,15 @@
 
 <!-- Subtitle -->
 <h2 align="center"> Projeto : Find Houses 🏘️ </h2>
-<p align="center">🚧 Início : 24/03/2021 á 28/03/2021</p>
+
+| Data  | Programação               | Status |
+| ----- | ------------------------- | ------ |
+| 24/03 | Conhecendo o Projeto      | ✔️      |
+| 25/03 | Arquitetura Atomic        | 🚧      |
+| 26/03 | Lista de Imóveis via API  | 🚧      |
+| 27/03 | Navegação e Estado Global | 🚧      |
+| 28/03 | Finalizando a Aplicação   | 🚧      |
+
 
 <!-- Badges -->
 <p align="center">
@@ -21,6 +29,11 @@
 ## 🚀 Sobre o Projeto
 
 ## 🖼️ Imagens do Projeto
+
+<div align="center">
+   <img src="./Assets/SplashScreen.png"/>
+</div>
+
 
 ## 🧰 Tecnologias e Bibliotecas
 * [React Native](https://reactnative.dev/)
