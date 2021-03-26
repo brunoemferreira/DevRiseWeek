@@ -12,6 +12,12 @@ export const InputLabel = styled.Text`
   font-weight: 600;
 `;
 
+export const ButtonText = styled.Text`
+  font-size: ${({ theme }) => theme.metrics.px(22)}px;
+  color: white;
+  font-weight: bold;
+`;
+
 // Detail Texts
 
 export const DetailTitle = styled.Text`
