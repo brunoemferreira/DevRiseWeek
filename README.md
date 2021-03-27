@@ -34,17 +34,25 @@
    <img src="./Assets/SplashScreen.png"/>
 </div>
 
-
 ## 🧰 Tecnologias e Bibliotecas
 * [React Native](https://reactnative.dev/)
-* [Styled Components]()
-* [Axios]()
-* [React Native DotEnv]()
-* [StoryBook]()
-* [React Native Vector Icons]()
+  * [Styled Components]()
+  * [React Native Vector Icons]()
+  * [Axios]()
+  * [React Native DotEnv]()
+  * [StoryBook]()
 * [Google Fonts - Montserrat Font]()
 
+## ☑️ Configurações
+Se Registrar no site da [Rapid API](https://rapidapi.com/) para ter acesso a documentação da API da [Realtor](https://www.realtor.com/) e a sua chave para validação e consulta da API.
+
+### 🔗 Links Úteis
+* [Rapid API](https://rapidapi.com/) - Documentação para Utilização da API da Realtor.com 
+* [Realtor.com](https://www.realtor.com/) - Site de Venda e Aluguel de imóveis nos Estados Unidos.
+
+
 ## ⚙️ Rodando o Projeto
+> Antes de Rodar o projeto é necessário fazer todo o processo de configuração mencionado anteriormente.
 ```bash
 # Clone este repositório para a pasta anterior
 $ git clone https://github.com/brunoemferreira/DevRiseWeek.git
@@ -62,3 +70,7 @@ $ npm install
 $ yarn android 
 
 ```
+## 📋 Referências
+
+
+---
