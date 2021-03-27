@@ -37,6 +37,9 @@
 
 ## 🧰 Tecnologias e Bibliotecas
 * [React Native](https://reactnative.dev/)
+* [Styled Components]()
+* [StoryBook]()
+* [React Native Vector Icons]()
 
 ## ⚙️ Rodando o Projeto
 ```bash
