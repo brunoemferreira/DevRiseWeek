@@ -38,6 +38,8 @@
 ## 🧰 Tecnologias e Bibliotecas
 * [React Native](https://reactnative.dev/)
 * [Styled Components]()
+* [Axios]()
+* [React Native DotEnv]()
 * [StoryBook]()
 * [React Native Vector Icons]()
 * [Google Fonts - Montserrat Font]()
