@@ -12,7 +12,7 @@
 | Data  | Programação               | Status |
 | ----- | ------------------------- | ------ |
 | 24/03 | Conhecendo o Projeto      | ✔️      |
-| 25/03 | Arquitetura Atomic        | 🚧      |
+| 25/03 | Arquitetura Atomic        | ✔️      |
 | 26/03 | Lista de Imóveis via API  | 🚧      |
 | 27/03 | Navegação e Estado Global | 🚧      |
 | 28/03 | Finalizando a Aplicação   | 🚧      |
