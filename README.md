@@ -40,6 +40,7 @@
 * [Styled Components]()
 * [StoryBook]()
 * [React Native Vector Icons]()
+* [Google Fonts - Montserrat Font]()
 
 ## ⚙️ Rodando o Projeto
 ```bash
