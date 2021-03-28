@@ -44,7 +44,7 @@
 * [Google Fonts - Montserrat Font]()
 
 ## ☑️ Configurações
-Se Registrar no site da [Rapid API](https://rapidapi.com/) para ter acesso a documentação da API da [Realtor](https://www.realtor.com/) e a sua chave para validação e consulta da API.
+É necessário se registrar no site da [Rapid API](https://rapidapi.com/) para ter acesso a documentação da API da [Realtor](https://www.realtor.com/) e a sua chave para validação e consulta da API.
 
 ### 🔗 Links Úteis
 * [Rapid API](https://rapidapi.com/) - Documentação para Utilização da API da Realtor.com 
