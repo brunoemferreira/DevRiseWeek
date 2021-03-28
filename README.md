@@ -27,6 +27,20 @@
 
 <!-- Sobre o Projeto -->
 ## 🚀 Sobre o Projeto
+O projeto desenvolvido é um App Mobile de busca de imóveis utilizando a api da [Realtor](https://www.realtor.com/) com ele é possível, filtrar imóveis por tamanho, preço, quantidade de quartos e banheiros é possível uma busca por localização do imóvel sendo a mesma utilizando autocomplete, há também a exibição dos dados do imóvel com a imagem do mesmo, opção de contatar o anunciante do imóvel e fazer marcações de seus imóveis favoritos.   
+
+### ✅ Funcionalidades 
+- [X] Splash Screen 
+- [ ] Listagem de Imóveis ( com informações e imagem )
+- [ ] Busca de imóveis por localização com autocomplete
+- [ ] Opções de Filtragem :
+  - [ ] Tamanho ( Mínimo / Máximo )
+  - [ ] Preço ( Mínimo / Máximo )
+  - [ ] Quartos ( Mínimo )
+  - [ ] Banheiros ( Mínimo )  
+- [ ] Detalhes do Imóvel
+- [ ] Opção de Contatar o anunciante
+- [ ] Opção de Colocar o imóvel como favorito
 
 ## 🖼️ Imagens do Projeto
 
