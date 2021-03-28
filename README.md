@@ -60,6 +60,30 @@ O projeto desenvolvido é um App Mobile de busca de imóveis utilizando a api da
 ## ☑️ Configurações
 É necessário se registrar no site da [Rapid API](https://rapidapi.com/) para ter acesso a documentação da API da [Realtor](https://www.realtor.com/) e a sua chave para validação e consulta da API.
 
+Após o Registro no [Rapid API](https://rapidapi.com/) faça uma busca procurando pela palavra [Realtor](https://www.realtor.com/) assim você receberá como resultado a página da documentação e configuração da API [Realtor](https://www.realtor.com/) : 
+
+Selecione esse Resultado da Busca :
+
+<img src="./assets/apirealtor.png"/>
+
+Então será aberto a página com toda a documentação disponível e como pode ser configurada a api, se atente as informações que estão na Aba Code Snipets, aqui se encontram a sua chave de validação da API e as configurações necessárias para as requisições que devem ser informadas no header, como exemplo abaixo : 
+
+```javascript
+req.headers({
+	"x-rapidapi-key": AQUI FICA A SUA CHAVE DE VALIDAÇÃO,
+	"x-rapidapi-host": "realtor.p.rapidapi.com",
+	"useQueryString": true
+});
+
+```
+Atento a estas informações acima, elas serão muito importantes para a configuração do arquivo .env que conterá as suas informações de acesso e utilização da API :
+
+```env
+API_URL=https://realtor.p.rapidapi.com
+XRAPIDAPIKEY=AQUI FICA A SUA CHAVE DE VALIDAÇÃO
+XTAPIDAPIHOST=realtor.p.rapidapi.com
+```
+
 ### 🔗 Links Úteis
 * [Rapid API](https://rapidapi.com/) - Documentação para Utilização da API da Realtor.com 
 * [Realtor.com](https://www.realtor.com/) - Site de Venda e Aluguel de imóveis nos Estados Unidos.
@@ -79,6 +103,9 @@ $ cd FindHouses
 $ yarn install
 ou
 $ npm install
+
+# Execute este comando para linkar os assets a aplicação
+$ yarn link
 
 # Executando o Projeto
 $ yarn android 
