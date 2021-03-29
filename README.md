@@ -115,6 +115,9 @@ $ yarn link
 # Executando o Projeto
 $ yarn android 
 
+# Caso necessite em algum momento remover o cache do app utilize o comando abaixo
+$ react-native start --reset-cache
+
 ```
 ## 📋 Referências
 

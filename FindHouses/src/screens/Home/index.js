@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { ScreenContainer, TopContainer, TitleContainer } from './styles';
-import { Title, IconButton, Input, HouseCard } from '../../components';
+import { Title, IconButton, Input, HouseList } from '../../components';
+import { getHouseCall } from '../../services/calls';
 
 export const HomeScreen = () => {
+  const [houseListData, setHouseListData] = useState([]);
+
+  const callGetHouses = async () => {
+    const result = await getHouseCall();
+    setHouseListData(result.properties ? result.properties : []);
+    console.log(result);
+  };
+
+  useEffect(() => {
+    callGetHouses();
+  }, []);
+
   return (
     <ScreenContainer>
       <TopContainer>
@@ -12,8 +25,10 @@ export const HomeScreen = () => {
 
         <IconButton iconName="filter" />
       </TopContainer>
+
       <Input label="Localização" placeholder="Digite o endereço" />
-      <HouseCard imgSource="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80" />
+
+      <HouseList data={houseListData} />
     </ScreenContainer>
   );
 };
